@@ -1,0 +1,6 @@
+Asymptotic Analysis is nothing but the theoritical analysis of algorithm without actually writing the algorithm instead with some kind of Pseudo Code.
+-> The speed of the machine and the programming language is not considered in Asymptotic Analysis.
+-> When it comes to analysis of algorithms, we always talk about the Input Size and Time of Function that is "Zero or Greater than Zero", because the Size of Input and Function Time can never be Zero.
+-> In Asymptotic Analysis, Order of growth is measured based on the Input size. 
+-> If the input size n, the order of growth of function and time taken by the function based on the size of input..
+
