@@ -1,1 +1,5 @@
-It's represented by omega(Ω)
+Big O Notation represents an upper bound of order of growth of any function.
+
+⁕ The rules which we followed for Asymptotic Analysis, i.e., Ignore the lower order terms and Ignore the leading term coefficient would give us the Big O Notation.
+⁕ In other words we could say that it provides the worst case complexity of an Algorithm.
+
