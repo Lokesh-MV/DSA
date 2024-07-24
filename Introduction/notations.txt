@@ -1,0 +1,20 @@
+Big O Notation represents an upper bound of order of growth of any function.
+
+⁕ The rules which we followed for Asymptotic Analysis, i.e., Ignore the lower order terms and Ignore the leading term coefficient would give us the Big O Notation.
+⁕ In other words we could say that it provides the worst case complexity of an Algorithm.
+
+
+
+Omega(Ω) Notation represents the lower bound of order of growth of a function.
+
+⁕ Omega Notation is useful when we have the lower bound on time complexity.
+⁕ If f(n) = Ω.g(n) then g(n) = O.f(n).
+
+
+Theta(Ө) Notation represents the exact bound of order of growth of a function.
+
+⁕ We can use the same method of finding the order of growth to get the theta notation, we can represent the notation we get in theta notation. 
+⁕ The values Omega Notation and Big O Notation are the lower and upper order of growth values.
+⁕ If f(n) = Өg(n), all the functions written below have the same order of growths and  then they can be written as f(n) = Ωg(n) or f(n) = Og(n) and similarly g(n) = Of(n) or g(n) = Ωf(n).
+
+
