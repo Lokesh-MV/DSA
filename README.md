@@ -11,7 +11,7 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository i
 
 This repository serves as a comprehensive guide to Data Structures and Algorithms (DSA). It contains code implementations, explanations, and problem-solving techniques that I encounter during my learning journey. The content is organized by topics, starting with the basics and progressing to more advanced concepts.
 
-## Learning Path
+## 🛣 Learning Path
 
 Below is a roadmap that I am following to learn DSA. Each section is accompanied by code examples, explanations, and practice problems:
 
