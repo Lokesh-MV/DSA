@@ -56,3 +56,64 @@ res = {x : str.count(x) for x in str if x in 'aeiou'}
 print(res)
 
 '''
+
+'''
+
+# Finding the second largest element in a list
+
+nums = list(map(int, input().split()))
+
+largest = nums[0]
+sl = None
+for i in range(1, len(nums)):
+    if nums[i] > largest:
+        sl = largest
+        largest = nums[i]
+    elif nums[i] != largest:
+        if sl == None or nums[i] > sl:
+            sl = nums[i]
+        
+print(sl, largest)
+'''
+
+'''
+nums = list(map(int, input().split()))
+
+def checkSorted(nums):
+    largest = nums[0]
+    for i in range(1, len(nums)):
+        if nums[i] <= largest:
+            return False
+            break
+        elif nums[i] < nums[i-1]:
+            return False
+            break 
+    return True
+
+print(checkSorted(nums))
+
+'''
+'''
+nums = list(map(int, input().split()))  
+
+def checkSorted(nums):
+    i = 1
+    while i < len(nums):
+        if nums[i-1] > nums[i]:
+            return False
+        i += 1
+    return True
+
+print(checkSorted(nums))    
+
+'''
+
+# sort() : modifies the given list and where as the sorted() creates a new list. Eg : l.sort() and sorted(l)
+
+
+
+        
+            
+
+
+
