@@ -42,19 +42,19 @@ print(smallestElements(lst, target))
 
 '''
 
-'''
 
 # Seperating even and odd numbers from a list of numbers
 
-# def segregate(lst):
-#     even = list(filter(lambda x:x if x%2==0 else None, lst))
-#     odd = list(filter(lambda x:x if x%2!=0 else None, lst))
-#     return even, odd
-# even, odd = segregate(lst)
+def segregate(lst):
+    even = list(filter(lambda x:x if x%2==0 else None, lst))
+    odd = list(filter(lambda x:x if x%2!=0 else None, lst))
+    return even, odd
+even, odd = segregate(lst)
 
-# print(even, odd)
+print(even, odd)
 
-'''
+
+
 
 
 
